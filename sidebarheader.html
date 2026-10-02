@@ -39,6 +39,11 @@
             height: 100px;
             background-color: chocolate;
         }
+
+        .content {
+            flex-grow: 1;
+            background-color: darkkhaki;
+        }
     </style>
 </head>
 
@@ -49,10 +54,13 @@
         </div>
         <div style="flex-grow: 1; display: flex; flex-direction: column; background-color: bisque;">
             <div class="header">header</div>
-            <h1>Content</h1>
-            <div class="cube">cube bube</div>
-            <p>some cube</p>
-            <div class="cube">cube dube</div>
+            <div class="content">
+                <h1>Content</h1>
+                <div class="cube">cube bube</div>
+                <p>some cube</p>
+                <div class="cube">cube dube</div>
+            </div>
+
         </div>
     </div>
     </div>
