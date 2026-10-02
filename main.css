@@ -1,10 +1,10 @@
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    background-color: whitesmoke;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: whitesmoke;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 p {
@@ -18,10 +18,17 @@ p {
 }
 
 table {
-	border: 1px solid black;
-	border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 tr:nth-child(odd) {
-    background: #f3ecdd;
+  background: #f3ecdd;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  color: aqua;
+  background-color: blueviolet;
 }
