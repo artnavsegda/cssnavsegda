@@ -8,8 +8,9 @@
         body {
             font-family: Georgia, "Times New Roman", Times, serif;
             background-color: whitesmoke;
-            display: flex;
-            flex-direction: column;
+            /*             display: flex;
+            flex-direction: column; */
+            margin: 0;
         }
 
         h1 {
@@ -28,14 +29,42 @@
             color: aqua;
             background-color: blueviolet;
         }
+
+        .wholepage {
+            height: 100vh;
+            display: flex;
+            background-color: blueviolet;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: aqua;
+        }
+
+        .headerandrest {
+            display: flex;
+            flex-direction: column;
+            background-color: bisque;
+            flex-grow: 1;
+        }
+
+        .header {
+            height: 100px;
+            background-color: chocolate;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Hello world</h1>
-    <p>Hello !</p>
-    <div class="cube">first</div>
-    <div class="cube" style="background-color: red;">second</div>
+    <div class="wholepage">
+        <div class="sidebar">
+            sidebar
+        </div>
+        <div class="headerandrest">
+            <div class="header">header</div>
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>
